@@ -71,7 +71,7 @@ class Ayoola_Storage
      */
     public function __construct( $device = null )
     {
-		if( ! is_null( $device ) ){	$this->setDevice( $device ); }
+		if(isset( $device ) ){	$this->setDevice( $device ); }
 	}
 
     /**
